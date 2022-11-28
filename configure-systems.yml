@@ -6,7 +6,9 @@
   tasks:
   
 - name: Call Roles
-  hosts: servers
+  hosts: 18.117.82.234
   roles:
-    #- ifconfig
+    #- hostname
+    #- firewalld
+    #- ntp-config
     - motd
