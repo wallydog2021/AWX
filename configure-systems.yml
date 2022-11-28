@@ -8,7 +8,5 @@
 - name: Call Roles
   hosts: servers
   roles:
-    #- hostname
-    #- firewalld
-    #- ntp-config
+    #- ifconfig
     - motd
